@@ -74,3 +74,77 @@ class RegisterScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(height: 20),
+                Container(
+                  padding: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.blue),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      border: InputBorder.none,
+                      labelText: 'Phone Number',
+                    ),
+                  ),
+                ),
+                SizedBox(height: 20),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Checkbox(
+                      value: false,
+                      onChanged: (value) {
+                        // Implement handling of terms and conditions checkbox
+                      },
+                    ),
+                    Text('I agree to the terms and conditions',
+                        style: TextStyle(fontSize: 12)),
+                  ],
+                ),
+                SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: () {
+                    // Implement registration functionality
+                  },
+                  child: Text('Register'),
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(vertical: 12, horizontal: 50),
+                  ),
+                ),
+                SizedBox(height: 20),
+                Text(
+                  'Or register with:',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(height: 20),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        // Implement Google login functionality
+                      },
+                      icon: Icon(Icons.g_mobiledata),
+                      label: Text('Google'),
+                      style: ElevatedButton.styleFrom(
+                        padding:
+                            EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+                      ),
+                    ),
+                    SizedBox(width: 20),
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        // Implement Facebook login functionality
+                      },
+                      icon: Icon(Icons.facebook),
+                      label: Text('Facebook'),
+                      style: ElevatedButton.styleFrom(
+                        padding:
+                            EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+                      ),
+                    ),
+                  ],
+                ),
