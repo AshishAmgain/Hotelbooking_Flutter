@@ -148,3 +148,33 @@ class RegisterScreen extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(height: 20),
+                GestureDetector(
+                  onTap: () {
+                    // Navigate back to the login screen
+                    // You can implement navigation here
+                  },
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => LoginScreen()));
+                    },
+                    child: Text(
+                      "Already have an account? Login",
+                      style: TextStyle(
+                        color: Colors.blue,
+                        decoration: TextDecoration.underline,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
