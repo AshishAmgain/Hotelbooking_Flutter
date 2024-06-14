@@ -47,7 +47,7 @@
       "name": "flutter",
       "rootUri": "file:///H:/Flutter/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_lints",
@@ -56,28 +56,34 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_riverpod",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_riverpod-2.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///H:/Flutter/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "leak_tracker",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.4",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
-      "name": "leak_tracker",
-      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
       "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.3",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_testing",
-      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "lints",
@@ -99,7 +105,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.11.0",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.12.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -108,6 +114,12 @@
       "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "riverpod",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/riverpod-2.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "sky_engine",
@@ -126,6 +138,12 @@
       "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "state_notifier",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/state_notifier-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "stream_channel",
@@ -147,7 +165,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.1",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -159,9 +177,9 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-13.0.0",
+      "rootUri": "file:///C:/Users/ashis/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "hotel_booking",
@@ -170,7 +188,10 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-05-16T07:34:56.191091Z",
+  "generated": "2024-06-14T05:15:05.371650Z",
   "generator": "pub",
-  "generatorVersion": "3.3.3"
+  "generatorVersion": "3.4.3",
+  "flutterRoot": "file:///H:/Flutter/flutter",
+  "flutterVersion": "3.22.2",
+  "pubCache": "file:///C:/Users/ashis/AppData/Local/Pub/Cache"
 }
