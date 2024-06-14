@@ -8,10 +8,6 @@
         "source": "hotel_booking.hotel_booking.app-main-5:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "hotel_booking.hotel_booking.app-merged_res-11:/drawable_launch_background.xml.flat",
-        "source": "hotel_booking.hotel_booking.app-main-5:/drawable/launch_background.xml"
-    },
-    {
         "merged": "hotel_booking.hotel_booking.app-merged_res-11:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "hotel_booking.hotel_booking.app-main-5:/mipmap-mdpi/ic_launcher.png"
     },

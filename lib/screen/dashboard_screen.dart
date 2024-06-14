@@ -116,48 +116,4 @@ class DashboardScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Divider(),
-            Container(
-              padding: EdgeInsets.all(20),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  IconButton(
-                    onPressed: () {
-                      // Implement home navigation
-                    },
-                    icon: Icon(Icons.home),
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      // Implement favorites navigation
-                    },
-                    icon: Icon(Icons.favorite),
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      // Implement bookings navigation
-                    },
-                    icon: Icon(Icons.book),
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      // Implement chats navigation
-                    },
-                    icon: Icon(Icons.chat),
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      // Implement profile navigation
-                    },
-                    icon: Icon(Icons.person),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
+            
