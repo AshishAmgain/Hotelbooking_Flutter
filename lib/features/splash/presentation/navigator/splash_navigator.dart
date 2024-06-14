@@ -6,4 +6,3 @@ final splashViewNavigatorProvider = Provider((ref) => SplashViewNavigator());
 
 class SplashViewNavigator with LoginViewRoute{}
 
-mixin SplashViewRoute{}
