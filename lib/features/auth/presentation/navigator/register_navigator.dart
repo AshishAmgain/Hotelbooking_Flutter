@@ -1,13 +1,15 @@
+import 'package:hotel_book/features/auth/presentation/navigator/login_navigator.dart';
+import 'package:hotel_book/features/auth/presentation/view/register_view.dart';
+import 'package:riverpod/riverpod.dart';
 
-// to go to other place from the Register router
-import 'package:hotel_booking/app/navigator/navigator.dart';
-import 'package:hotel_booking/features/auth/presentation/view/register_view.dart';
+import '../../../../app/navigator/navigator.dart';
 
-class RegisterViewNavigator{}
+final registerViewNavigatorProvider = Provider((ref) => RegisterNavigator());
 
-// called by other views to open this Register Page
-mixin RegisterViewRoute{
-  openRegisterView(){
-    NavigateRoute.pushRoute(const RegisterView());
+class RegisterNavigator with LoginViewRoute {}
+
+mixin RegisterViewRoute {
+  openRegisterView() {
+    NavigateRoute.pushRoute(const SignupView());
   }
 }

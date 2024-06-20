@@ -1,12 +1,12 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hotel_booking/app/navigator/navigator.dart';
-import 'package:hotel_booking/features/auth/presentation/navigator/register_navigator.dart';
-import 'package:hotel_booking/features/auth/presentation/view/login_view.dart';
+import 'package:hotel_book/app/navigator/navigator.dart';
+import 'package:hotel_book/features/auth/presentation/navigator/register_navigator.dart';
+import 'package:hotel_book/features/auth/presentation/view/login_view.dart';
+import 'package:hotel_book/features/dashboard/presentation/navigator/dashboard_navigator.dart';
 
-// to go to the register view
 final loginViewNavigatorProvider = Provider((ref) => LoginViewNavigator());
 
-class LoginViewNavigator with RegisterViewRoute {}
+class LoginViewNavigator with RegisterViewRoute, DashboardViewRoute {}
 
 mixin LoginViewRoute {
   openLoginView() {
